@@ -1,0 +1,40 @@
+{
+    "Records": [
+        {
+            "eventID": "",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1597368073,
+                "Keys": {
+                    "name": {
+                        "S": "Mulher maravilha"
+                    },
+                    "id": {
+                        "S": "71a33650-ddcc-11ea-82a8-d103a7468890"
+                    }
+                },
+                "NewImage": {
+                    "createdAt": {
+                        "S": "2020-08-14T01:21:13.781Z"
+                    },
+                    "name": {
+                        "S": "Mulher maravilha"
+                    },
+                    "id": {
+                        "S": "71a33650-ddcc-11ea-82a8-d103a7468890"
+                    },
+                    "power": {
+                        "S": "Força"
+                    }
+                },
+                "SequenceNumber": "199800000000018365973249",
+                "SizeBytes": 160,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": ""
+        }
+    ]
+}

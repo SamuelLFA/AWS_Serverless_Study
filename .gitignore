@@ -1,0 +1,7 @@
+# AWS
+new_user_credentials.csv
+.serverless/
+
+# Node.js
+node_modules/
+*-lock.json
