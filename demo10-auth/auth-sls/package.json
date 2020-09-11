@@ -1,0 +1,21 @@
+{
+  "name": "auth-sls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon --exec npx sls offline --host 0.0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "serverless": "^2.0.0",
+    "serverless-offline": "^6.7.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
