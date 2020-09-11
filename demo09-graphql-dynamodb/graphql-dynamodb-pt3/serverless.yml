@@ -1,4 +1,6 @@
+
 service: graphql-dynamodb-pt1
+
 
 provider:
   name: aws
@@ -48,12 +50,13 @@ custom:
           - table: ${self:provider.environment.SKILLS_TABLE}
             sources: [ './seed/skills.json' ]
 
+
 functions:
-  hello:
-    handler: handler.hello
+  graphql:
+    handler: handler.handler
     events:
       - http:
-          path: hello
+          path: graphql
           method: any
 
 resources:
